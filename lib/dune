@@ -1,2 +1,4 @@
 (library
- (name asai_interpreter))
+ (name asai_interpreter)
+ (inline_tests)
+ (preprocess (pps ppx_inline_test)))
